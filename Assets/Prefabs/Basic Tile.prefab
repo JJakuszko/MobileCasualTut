@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4910837258384736219}
   - component: {fileID: 3966041694339768578}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Left End Pointer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -115,7 +115,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2971648117903002888}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 10}
+  m_LocalPosition: {x: 0, y: 0, z: 8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2971648119742446772}
@@ -164,8 +164,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 7, y: 2, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 7, y: 2, z: 6}
+  m_Center: {x: 0, y: 0, z: 1.636147}
 --- !u!114 &4053639829748902376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -595,7 +595,7 @@ GameObject:
   - component: {fileID: 8156932685585871001}
   - component: {fileID: 8492862434877350939}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Right End Pointer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

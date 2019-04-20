@@ -23,7 +23,7 @@ public class PlayerBehaviour : MonoBehaviour
 
     //string filePath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
 
-    void Update()
+    void FixedUpdate()
     {
          if(rb.position.y <= 0)
         {
